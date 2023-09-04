@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 30 14:08:18 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>16 seconds (16410 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.swagger.testCases.UserTestUsingTestData.testCreateUser()'><b>testCreateUser</b><br>Test class: api.swagger.testCases.UserTestUsingTestData<br>Parameters: 102, subhashingale, Manish, Singh, ingale.subhash@gmail.com, subhash9596, 2365485654</td>
+<td></td>
+<td>1</td>
+<td>api.swagger.testCases.UserTestUsingTestData@2b40ff9c</td></tr>
+<tr>
+<td title='api.swagger.testCases.UserTestUsingTestData.testGetUser()'><b>testGetUser</b><br>Test class: api.swagger.testCases.UserTestUsingTestData<br>Parameters: subhashingale</td>
+<td></td>
+<td>1</td>
+<td>api.swagger.testCases.UserTestUsingTestData@2b40ff9c</td></tr>
+<tr>
+<td title='api.swagger.testCases.UserTestUsingTestData.testDeleteUser()'><b>testDeleteUser</b><br>Test class: api.swagger.testCases.UserTestUsingTestData<br>Parameters: username</td>
+<td></td>
+<td>1</td>
+<td>api.swagger.testCases.UserTestUsingTestData@2b40ff9c</td></tr>
+<tr>
+<td title='api.swagger.testCases.UserTestUsingTestData.testCreateUser()'><b>testCreateUser</b><br>Test class: api.swagger.testCases.UserTestUsingTestData<br>Parameters: 101, username, subhash, ingale, ingale.subhash@gmail.com, subhash9596, 2365485654</td>
+<td></td>
+<td>3</td>
+<td>api.swagger.testCases.UserTestUsingTestData@2b40ff9c</td></tr>
+<tr>
+<td title='api.swagger.testCases.UserTestUsingTestData.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.swagger.testCases.UserTestUsingTestData<br>Parameters: Jyoti</td>
+<td></td>
+<td>1</td>
+<td>api.swagger.testCases.UserTestUsingTestData@2b40ff9c</td></tr>
+<tr>
+<td title='api.swagger.testCases.UserTestUsingTestData.testLoginUser()'><b>testLoginUser</b><br>Test class: api.swagger.testCases.UserTestUsingTestData<br>Parameters: subhashingale, subhash9596</td>
+<td></td>
+<td>1</td>
+<td>api.swagger.testCases.UserTestUsingTestData@2b40ff9c</td></tr>
+<tr>
+<td title='api.swagger.testCases.UserTestUsingTestData.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.swagger.testCases.UserTestUsingTestData<br>Parameters: Seema</td>
+<td></td>
+<td>1</td>
+<td>api.swagger.testCases.UserTestUsingTestData@2b40ff9c</td></tr>
+<tr>
+<td title='api.swagger.testCases.UserTestUsingTestData.logoutUser()'><b>logoutUser</b><br>Test class: api.swagger.testCases.UserTestUsingTestData</td>
+<td></td>
+<td>0</td>
+<td>api.swagger.testCases.UserTestUsingTestData@2b40ff9c</td></tr>
+<tr>
+<td title='api.swagger.testCases.UserTestUsingTestData.testGetUser()'><b>testGetUser</b><br>Test class: api.swagger.testCases.UserTestUsingTestData<br>Parameters: username</td>
+<td></td>
+<td>1</td>
+<td>api.swagger.testCases.UserTestUsingTestData@2b40ff9c</td></tr>
+<tr>
+<td title='api.swagger.testCases.UserTestUsingTestData.testLoginUser()'><b>testLoginUser</b><br>Test class: api.swagger.testCases.UserTestUsingTestData<br>Parameters: username, subhash9596</td>
+<td></td>
+<td>1</td>
+<td>api.swagger.testCases.UserTestUsingTestData@2b40ff9c</td></tr>
+<tr>
+<td title='api.swagger.testCases.UserTestUsingTestData.testDeleteUser()'><b>testDeleteUser</b><br>Test class: api.swagger.testCases.UserTestUsingTestData<br>Parameters: subhashingale</td>
+<td></td>
+<td>1</td>
+<td>api.swagger.testCases.UserTestUsingTestData@2b40ff9c</td></tr>
+</table><p>
+</body>
+</html>
